@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: lightgrey;
+}
+#Logo{
+    position: absolute;
+    margin: 10px;
+}
+#Logo img{
+    width: 50px;
+}
+.nav{
+    display: block;
+    list-style: none;
+    text-align: end;
+}
+.nav li{
+    display: inline-block;
+    padding: 20px;
+    padding-right: 0;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-right: solid;
+    border-color: white;
+    padding-right: 20px;
+}
