@@ -5,6 +5,7 @@
 }
 header{
     background-color: lightgrey;
+    height: 10vh;
 }
 #Logo{
     position: absolute;
@@ -30,4 +31,13 @@ header{
     border-right: solid;
     border-color: white;
     padding-right: 20px;
+}
+.main-content {
+    background-color: grey;
+    display: inline-block;
+    height: 80vh;
+    width: 80%;
+}
+.main-content p{
+    color:black
 }
