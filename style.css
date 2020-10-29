@@ -57,3 +57,14 @@ aside .anuncio{
     margin-top: 3.2vh;
     border-radius: 5%;
 }
+footer{
+    background-color: yellow;
+    height: 10vh;
+    display: flex;
+}
+footer p{
+    margin: auto;
+}
+footer div{
+    width: 80%;
+}
