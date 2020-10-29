@@ -5,6 +5,8 @@
 }
 header{
     background-color: lightgrey;
+    min-height: 67px;
+    height: 10vh;
 }
 #Logo{
     position: absolute;
@@ -30,4 +32,19 @@ header{
     border-right: solid;
     border-color: white;
     padding-right: 20px;
+}
+aside{
+    display: inline-block;
+    width: 20%;
+    height: 80vh;
+    background-color: hotpink;
+}
+aside .anuncio{
+    display: block;
+    width: 90%;
+    height: 20%;
+    background-color: mediumorchid;
+    margin: auto;
+    margin-top: 3.2vh;
+    border-radius: 5%;
 }
